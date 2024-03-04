@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 100%;
+}
+
+.logo-netflix {
+    height: 100px;
+    width: 150px;
+}
+
+.netflix-bg {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url('./img/fundo-netflix.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.select-idioma {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
+}
+
+.select-idioma:focus {
+    border-width: 3px;
+}
+
+.botao-entrar {
+    margin-left: 15px;
+    padding: 5px 12px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
